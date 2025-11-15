@@ -1,0 +1,22 @@
+[project]
+name = "nvidia-datamesh"
+version = "1.0.0"
+description = "Internal NVIDIA library for multimodal ETL pipelines using Daft"
+authors = [
+  {name = "NVIDIA AI Hackathon Team", email = "ai-hackathon@nvidia.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "daft>=0.2.0",
+  "pydantic>=2.0",
+  "requests>=2.31",
+  "pyyaml>=6.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
