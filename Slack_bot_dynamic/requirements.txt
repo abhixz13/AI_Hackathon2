@@ -1,0 +1,12 @@
+# Slack Bot Dependencies
+slack-bolt==1.18.0
+slack-sdk==3.26.1
+
+# Web Framework
+flask==3.0.0
+
+# Utilities
+requests==2.31.0
+
+# Optional: For deployment
+gunicorn==21.2.0
